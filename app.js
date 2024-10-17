@@ -165,7 +165,7 @@ form.addEventListener('submit', async function (e) {
     
         
         try {
-            const loc = await axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`);
+            const loc = await axios.get(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`);
             const { lat, lon, name } = loc.data[0];
             place.innerHTML = name;
 
