@@ -1,0 +1,5 @@
+@media screen and (max-width: 550px) {
+    #hourText{
+        font-size: small;
+    }
+}

@@ -13,7 +13,7 @@ const dailyData = [
 const hourlyForecast = document.getElementById("hourlyForecast");
 hourlyData.forEach(({ time, temp }) => {
   hourlyForecast.innerHTML += `
-    <div class="col-2 d-flex flex-column text-center">
+    <div id="hourText" class="col-2 d-flex flex-column text-center">
       <span class="time">${time}</span>
       <span class="hourTemp">${temp}&deg;</span>
     </div>
