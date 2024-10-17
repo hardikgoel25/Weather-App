@@ -12,8 +12,8 @@ const highTemps = document.querySelectorAll('#h1');
 const lowTemps = document.querySelectorAll('#l1');
 const pm = document.querySelector('.PM');
 const uv = document.querySelector('.UV');
-import CONFIG from './config.js';
-const apiKey = CONFIG.OPENWEATHER_API_KEY || '2c28a9c722a880f2c1b1a30a6582dd1a';
+
+const apiKey = '2c28a9c722a880f2c1b1a30a6582dd1a';
 
 let userLat, userLong;
 
